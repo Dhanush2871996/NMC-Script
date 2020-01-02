@@ -5,7 +5,7 @@
     <listener class-name="com.nmc.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Registration Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.nmc.testcases.two_seven.SampleTestCase">
         <methods>

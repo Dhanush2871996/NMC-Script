@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name = "InstaNMC-Automation">
+<suite name="InstaNMC-Automation">
 
-	<listeners> 
+	<listeners>
 		<listener class-name="com.nmc.utilities.Reporting"></listener>
 	</listeners>
 
-		<test name = "Registration Test">
-			<parameter name="browser" value="chrome"></parameter>
-				<classes>
-					<class name="com.nmc.testcases.two_seven.SampleTestCase" /> 
-				</classes>
-		</test>
+	<test name="Registration Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.nmc.testcases.two_seven.SampleTestCase" />
+		</classes>
+	</test>
 
 </suite>

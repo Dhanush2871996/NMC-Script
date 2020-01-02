@@ -1,180 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-18T13:57:45Z" name="InstaNMC-Automation" finished-at="2019-12-18T13:57:46Z" duration-ms="918">
+  <suite name="Suite" duration-ms="66850" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:09:00Z">
     <groups>
     </groups>
-    <test started-at="2019-12-18T13:57:45Z" name="Registration Test" finished-at="2019-12-18T13:57:46Z" duration-ms="918">
-      <class name="com.nmc.testcases.two_seven.SampleTestCase">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:45Z" name="setUp" finished-at="2019-12-18T13:57:46Z" duration-ms="124" status="FAIL">
+    <test name="Registration Automation" duration-ms="66850" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:09:00Z">
+      <class name="com.nmc.testcases.testcase01.SampleTestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="setUp" is-config="true" duration-ms="8163" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:08:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.nmc.generics.BaseClass.setUp(BaseClass.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="before_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="before_method" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="before_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="before_method" is-config="true" duration-ms="33" started-at="2020-01-02T07:08:01Z" finished-at="2020-01-02T07:08:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_method -->
-        <test-method signature="test_1()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="test_1" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.nmc.generics.BaseClass.setUp(BaseClass.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="20248" started-at="2020-01-02T07:08:03Z" data-provider="regData" finished-at="2020-01-02T07:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@867ba60]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-        <test-method is-config="true" signature="after_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="after_method" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-02T07:08:23Z" finished-at="2020-01-02T07:08:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->
-        <test-method is-config="true" signature="before_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="before_method" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="13628" started-at="2020-01-02T07:08:23Z" data-provider="regData" finished-at="2020-01-02T07:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5ba745bc]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- before_method -->
-        <test-method signature="test_2()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="test_2" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver
-at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.nmc.generics.BaseClass.setUp(BaseClass.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_2 -->
-        <test-method is-config="true" signature="after_method()[pri:0, instance:com.nmc.testcases.two_seven.SampleTestCase@6b419da]" started-at="2019-12-18T13:57:46Z" name="after_method" finished-at="2019-12-18T13:57:46Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="1" started-at="2020-01-02T07:08:37Z" finished-at="2020-01-02T07:08:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->
-      </class> <!-- com.nmc.testcases.two_seven.SampleTestCase -->
-    </test> <!-- Registration Test -->
-  </suite> <!-- InstaNMC-Automation -->
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="22885" started-at="2020-01-02T07:08:37Z" data-provider="regData" finished-at="2020-01-02T07:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@654b72c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-02T07:09:00Z" finished-at="2020-01-02T07:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_method -->
+      </class> <!-- com.nmc.testcases.testcase01.SampleTestCase -->
+    </test> <!-- Registration Automation -->
+  </suite> <!-- Suite -->
 </testng-results>

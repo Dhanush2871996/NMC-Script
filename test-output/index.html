@@ -29,16 +29,16 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-InstaNMC-Automation" class="navigator-link">
-              <span class="suite-name border-skipped">InstaNMC-Automation</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-InstaNMC-Automation" class="navigator-link ">
-                    <span>extent-config.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-InstaNMC-Automation" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  2 skipped,  </span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-InstaNMC-Automation" class="hide-methods skipped suite-InstaNMC-Automation"> (hide)</a> <!-- hide-methods skipped suite-InstaNMC-Automation -->
-                      <a href="#" panel-name="suite-InstaNMC-Automation" class="show-methods skipped suite-InstaNMC-Automation"> (show)</a> <!-- show-methods skipped suite-InstaNMC-Automation -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-InstaNMC-Automation">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-InstaNMC-Automation" title="com.nmc.testcases.two_seven.SampleTestCase" class="method navigator-link" hash-for-method="test_1">test_1</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nmc.testcases.testcase01.SampleTestCase" hash-for-method="test_1([Mrs., dhanush, 3333333333, 25])">test_1([Mrs., dhanush, 3333333333, 25])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-InstaNMC-Automation" title="com.nmc.testcases.two_seven.SampleTestCase" class="method navigator-link" hash-for-method="test_2">test_2</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nmc.testcases.testcase01.SampleTestCase" hash-for-method="test_1([Dr., manish, 9999999999, 23])">test_1([Dr., manish, 9999999999, 23])</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-InstaNMC-Automation -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.nmc.testcases.testcase01.SampleTestCase" hash-for-method="test_1([Mr., amit, 8888888888, 24])">test_1([Mr., amit, 8888888888, 24])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,163 +126,168 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-InstaNMC-Automation" class="panel InstaNMC-Automation">
-          <div class="suite-InstaNMC-Automation-class-skipped">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">com.nmc.testcases.two_seven.SampleTestCase</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.nmc.testcases.testcase01.SampleTestCase</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_1">
-                  </a> <!-- test_1 -->
+                  <a name="test_1([Mrs., dhanush, 3333333333, 25])">
+                  </a> <!-- test_1([Mrs., dhanush, 3333333333, 25]) -->
                   <span class="method-name">test_1</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.nmc.generics.BaseClass.setUp(BaseClass.java:43)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
+                  <span class="parameters">([Mrs., dhanush, 3333333333, 25])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_2">
-                  </a> <!-- test_2 -->
-                  <span class="method-name">test_2</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /home/manish/Desktop/ReportFromRepository/Instanmc.Automation/./drivers/chromedriver
-	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.nmc.generics.BaseClass.setUp(BaseClass.java:43)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
+                  <a name="test_1([Dr., manish, 9999999999, 23])">
+                  </a> <!-- test_1([Dr., manish, 9999999999, 23]) -->
+                  <span class="method-name">test_1</span>
+                  <span class="parameters">([Dr., manish, 9999999999, 23])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_1([Mr., amit, 8888888888, 24])">
+                  </a> <!-- test_1([Mr., amit, 8888888888, 24]) -->
+                  <span class="method-name">test_1</span>
+                  <span class="parameters">([Mr., amit, 8888888888, 24])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-InstaNMC-Automation-class-skipped -->
-        </div> <!-- panel InstaNMC-Automation -->
-        <div panel-name="test-xml-InstaNMC-Automation" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/manish/Desktop/ReportFromRepository/Instanmc.Automation/extent-config.xml</span>
+            <span class="header-content">/home/debjyoti/Desktop/Automation_Docs/SMSregistration/Instanmc.Automation/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;InstaNMC-Automation&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.nmc.utilities.Reporting&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Registration Test&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Registration Automation&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nmc.testcases.two_seven.SampleTestCase&quot;/&gt;
+      &lt;class name=&quot;com.nmc.testcases.testcase01.SampleTestCase&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Registration Test --&gt;
-&lt;/suite&gt; &lt;!-- InstaNMC-Automation --&gt;
+  &lt;/test&gt; &lt;!-- Registration Automation --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-InstaNMC-Automation" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for InstaNMC-Automation</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Registration Test (1 class)</span>
+                <span class="test-name">Registration Automation (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-InstaNMC-Automation" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for InstaNMC-Automation</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-InstaNMC-Automation" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for InstaNMC-Automation</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_InstaNMC-Automation');
-function tableData_InstaNMC-Automation() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_2')
-data.setCell(0, 2, 'com.nmc.testcases.two_seven.SampleTestCase')
-data.setCell(0, 3, 0);
+data.setCell(0, 1, 'test_1')
+data.setCell(0, 2, 'com.nmc.testcases.testcase01.SampleTestCase')
+data.setCell(0, 3, 22885);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_1')
-data.setCell(1, 2, 'com.nmc.testcases.two_seven.SampleTestCase')
-data.setCell(1, 3, 0);
-window.suiteTableData['InstaNMC-Automation']= { tableData: data, tableDiv: 'times-div-InstaNMC-Automation'}
+data.setCell(1, 2, 'com.nmc.testcases.testcase01.SampleTestCase')
+data.setCell(1, 3, 20248);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_1')
+data.setCell(2, 2, 'com.nmc.testcases.testcase01.SampleTestCase')
+data.setCell(2, 3, 13628);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
-              <div id="times-div-InstaNMC-Automation">
-              </div> <!-- times-div-InstaNMC-Automation -->
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-InstaNMC-Automation" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for InstaNMC-Automation</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-InstaNMC-Automation" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-InstaNMC-Automation" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nmc.testcases.two_seven.SampleTestCase</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test_1</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">test_2</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.nmc.testcases.testcase01.SampleTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">setUp(chrome)</span>
+                <span class="method-name">setUp(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">before_method</span>
+                <span class="method-start">8163 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_1([Dr., manish, 9999999999, 23])</span>
+                <span class="method-start">10055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">30310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test_1([Mr., amit, 8888888888, 24])</span>
+                <span class="method-start">30311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">43945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">test_1([Mrs., dhanush, 3333333333, 25])</span>
+                <span class="method-start">43946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">after_method</span>
+                <span class="method-start">66835 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
