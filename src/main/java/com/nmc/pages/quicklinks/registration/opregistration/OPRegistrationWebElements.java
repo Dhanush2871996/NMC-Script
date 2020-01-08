@@ -18,15 +18,16 @@ import lombok.Getter;//This is used when we just want get methods . for both get
 @Getter
 public class OPRegistrationWebElements {
 	QuickLinks homePagequickLinks;
-	CommonActions commonActions;
+	
 
 	public OPRegistrationWebElements(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		homePagequickLinks = new QuickLinks(driver);
-		commonActions = new CommonActions();
+		
 	}
 
 	public void navigateToOpRegScr() {
+		CommonActions.explicitWait(homePagequickLinks.registrationdd);
 		CommonActions.clickElement(homePagequickLinks.registrationdd);
 		CommonActions.clickElement(opRegHyperLink);
 	}

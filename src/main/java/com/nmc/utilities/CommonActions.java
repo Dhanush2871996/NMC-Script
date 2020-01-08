@@ -1,11 +1,16 @@
 package com.nmc.utilities;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.nmc.infra.BaseClass;
 
 public class CommonActions extends BaseClass {
+	
+	static WebDriverWait wait;
 
 	// click on element.
 	public static void clickElement(WebElement element) {
@@ -64,6 +69,11 @@ public class CommonActions extends BaseClass {
 	// Returns page title
 	public static String getPageTitle() {
 		return driver.getTitle();
+	}
+	
+	public static void explicitWait(WebElement element) {
+		wait = new WebDriverWait(driver, 5);
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
 }

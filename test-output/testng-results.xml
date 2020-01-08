@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="66850" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:09:00Z">
+  <suite name="Suite" duration-ms="87428" started-at="2020-01-08T08:08:33Z" finished-at="2020-01-08T08:10:01Z">
     <groups>
     </groups>
-    <test name="Registration Automation" duration-ms="66850" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:09:00Z">
+    <test name="Registration Automation" duration-ms="87428" started-at="2020-01-08T08:08:33Z" finished-at="2020-01-08T08:10:01Z">
       <class name="com.nmc.testcases.testcase01.SampleTestCase">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="setUp" is-config="true" duration-ms="8163" started-at="2020-01-02T07:07:53Z" finished-at="2020-01-02T07:08:01Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="setUp" is-config="true" duration-ms="12399" started-at="2020-01-08T08:08:33Z" finished-at="2020-01-08T08:08:46Z">
           <params>
             <param index="0">
               <value>
@@ -18,52 +18,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="before_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="before_method" is-config="true" duration-ms="33" started-at="2020-01-02T07:08:01Z" finished-at="2020-01-02T07:08:01Z">
+        <test-method status="PASS" signature="before_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="before_method" is-config="true" duration-ms="42" started-at="2020-01-08T08:08:46Z" finished-at="2020-01-08T08:08:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_method -->
-        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="20248" started-at="2020-01-02T07:08:03Z" data-provider="regData" finished-at="2020-01-02T07:08:23Z">
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="31363" started-at="2020-01-08T08:08:48Z" data-provider="regData" finished-at="2020-01-08T08:09:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@867ba60]]>
+                <![CDATA[[Ljava.lang.String;@3956b302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-02T07:08:23Z" finished-at="2020-01-02T07:08:23Z">
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-08T08:09:19Z" finished-at="2020-01-08T08:09:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="13628" started-at="2020-01-02T07:08:23Z" data-provider="regData" finished-at="2020-01-02T07:08:37Z">
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="25968" started-at="2020-01-08T08:09:19Z" data-provider="regData" finished-at="2020-01-08T08:09:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@5ba745bc]]>
+                <![CDATA[[Ljava.lang.String;@1500e009]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="1" started-at="2020-01-02T07:08:37Z" finished-at="2020-01-02T07:08:37Z">
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-08T08:09:45Z" finished-at="2020-01-08T08:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->
-        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="22885" started-at="2020-01-02T07:08:37Z" data-provider="regData" finished-at="2020-01-02T07:09:00Z">
+        <test-method status="PASS" signature="test_1([Ljava.lang.String;)[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="test_1" duration-ms="15743" started-at="2020-01-08T08:09:45Z" data-provider="regData" finished-at="2020-01-08T08:10:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@654b72c0]]>
+                <![CDATA[[Ljava.lang.String;@1fd386c3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_1 -->
-        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-02T07:09:00Z" finished-at="2020-01-02T07:09:00Z">
+        <test-method status="PASS" signature="after_method()[pri:0, instance:com.nmc.testcases.testcase01.SampleTestCase@6293abcc]" name="after_method" is-config="true" duration-ms="0" started-at="2020-01-08T08:10:01Z" finished-at="2020-01-08T08:10:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after_method -->

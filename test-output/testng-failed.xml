@@ -6,7 +6,7 @@
     <classes>
       <class name="com.nmc.testcases.testcase01.SampleTestCase">
         <methods>
-          <include name="test_1"/>
+          <include name="test_1" invocation-numbers="0 1 2"/>
           <include name="after_method"/>
           <include name="before_method"/>
           <include name="setUp"/>

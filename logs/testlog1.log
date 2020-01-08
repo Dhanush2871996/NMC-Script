@@ -393,3 +393,44 @@
 2020-01-02 12:38:59,494 [main] INFO Instanmc.Automation - first Name is set to dhanush
 2020-01-02 12:38:59,559 [main] INFO Instanmc.Automation - Mobile Number is set to 3333333333
 2020-01-02 12:38:59,607 [main] INFO Instanmc.Automation - Age is set to 25
+2020-01-02 15:21:38,595 [main] INFO Instanmc.Automation - URL is opened where page title is : Login - Insta HMS
+2020-01-02 15:23:44,363 [main] INFO Instanmc.Automation - URL is opened where page title is : Login - Insta HMS
+2020-01-02 15:24:11,822 [main] INFO Instanmc.Automation - salutation is set to Dr.
+2020-01-02 15:24:11,867 [main] INFO Instanmc.Automation - first Name is set to manish
+2020-01-02 15:24:11,917 [main] INFO Instanmc.Automation - Mobile Number is set to 9999999999
+2020-01-02 15:24:11,956 [main] INFO Instanmc.Automation - Age is set to 23
+2020-01-02 15:24:34,542 [main] INFO Instanmc.Automation - salutation is set to Mr.
+2020-01-02 15:24:34,580 [main] INFO Instanmc.Automation - first Name is set to amit
+2020-01-02 15:24:34,621 [main] INFO Instanmc.Automation - Mobile Number is set to 8888888888
+2020-01-02 15:24:34,653 [main] INFO Instanmc.Automation - Age is set to 24
+2020-01-02 15:24:48,969 [main] INFO Instanmc.Automation - salutation is set to Mrs.
+2020-01-02 15:24:49,012 [main] INFO Instanmc.Automation - first Name is set to dhanush
+2020-01-02 15:24:49,058 [main] INFO Instanmc.Automation - Mobile Number is set to 3333333333
+2020-01-02 15:24:49,101 [main] INFO Instanmc.Automation - Age is set to 25
+2020-01-08 11:37:22,205 [main] INFO Instanmc.Automation - URL is opened where page title is : Login - Insta HMS
+2020-01-08 11:38:01,246 [main] INFO Instanmc.Automation - salutation is set to Dr.
+2020-01-08 11:38:01,296 [main] INFO Instanmc.Automation - first Name is set to manish
+2020-01-08 11:38:01,333 [main] INFO Instanmc.Automation - Mobile Number is set to 9999999999
+2020-01-08 11:38:01,367 [main] INFO Instanmc.Automation - Age is set to 23
+2020-01-08 11:38:32,886 [main] INFO Instanmc.Automation - salutation is set to Mr.
+2020-01-08 11:38:32,929 [main] INFO Instanmc.Automation - first Name is set to amit
+2020-01-08 11:38:32,977 [main] INFO Instanmc.Automation - Mobile Number is set to 8888888888
+2020-01-08 11:38:33,006 [main] INFO Instanmc.Automation - Age is set to 24
+2020-01-08 11:39:15,435 [main] INFO Instanmc.Automation - salutation is set to Mrs.
+2020-01-08 11:39:15,482 [main] INFO Instanmc.Automation - first Name is set to dhanush
+2020-01-08 11:39:15,526 [main] INFO Instanmc.Automation - Mobile Number is set to 3333333333
+2020-01-08 11:39:15,554 [main] INFO Instanmc.Automation - Age is set to 25
+2020-01-08 11:40:55,592 [main] INFO Instanmc.Automation - URL is opened where page title is : Login - Insta HMS
+2020-01-08 12:08:46,275 [main] INFO Instanmc.Automation - URL is opened where page title is : Login - Insta HMS
+2020-01-08 12:09:18,717 [main] INFO Instanmc.Automation - salutation is set to Dr.
+2020-01-08 12:09:18,759 [main] INFO Instanmc.Automation - first Name is set to manish
+2020-01-08 12:09:18,805 [main] INFO Instanmc.Automation - Mobile Number is set to 9999999999
+2020-01-08 12:09:18,836 [main] INFO Instanmc.Automation - Age is set to 23
+2020-01-08 12:09:44,731 [main] INFO Instanmc.Automation - salutation is set to Mr.
+2020-01-08 12:09:44,769 [main] INFO Instanmc.Automation - first Name is set to amit
+2020-01-08 12:09:44,803 [main] INFO Instanmc.Automation - Mobile Number is set to 8888888888
+2020-01-08 12:09:44,828 [main] INFO Instanmc.Automation - Age is set to 24
+2020-01-08 12:10:00,462 [main] INFO Instanmc.Automation - salutation is set to Mrs.
+2020-01-08 12:10:00,513 [main] INFO Instanmc.Automation - first Name is set to dhanush
+2020-01-08 12:10:00,559 [main] INFO Instanmc.Automation - Mobile Number is set to 3333333333
+2020-01-08 12:10:00,588 [main] INFO Instanmc.Automation - Age is set to 25
